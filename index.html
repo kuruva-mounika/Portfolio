@@ -6,22 +6,21 @@
 <title>Mounika Kuruva — Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link href="/portfolio.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
 <body>
 
 <nav>
-  <div class="nav-inner">
-    <div class="logo">mounika<span>.dev</span></div>
-    <ul class="nav-links">
-      <li><a href="#about">about</a></li>
-      <li><a href="#education">education</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#certifications">certs</a></li>
-      <li><a href="#contact">contact</a></li>
-    </ul>
-  </div>
+<ul class="nav-links">
+  <li><a href="#about">about</a></li>
+  <li><a href="#education">education</a></li>
+  <li><a href="#skills">skills</a></li>
+  <li><a href="#projects">projects</a></li>
+  <li><a href="#certifications">certs</a></li>
+  <li><a href="#contact">contact</a></li>
+</ul>
 </nav>
+
 
 <header>
   <div class="wrap hero-grid">
@@ -115,9 +114,53 @@
   </div>
 </section>
 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap reveal">
+
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-title">
+        <h3>Placement Management System</h3>
+        <span>JavaScript · HTML5 · CSS3 · Web Storage API</span>
+      </div>
+
+      <p class="project-description">
+        Built a web portal that digitizes campus placements, replacing
+        manual tracking with one platform for students and the placement cell.
+      </p>
+
+      <ul class="project-features">
+        <li>
+          Helps students find and apply to eligible company drives using
+          search, filters, and automatic branch, CGPA, and deadline checks.
+        </li>
+
+        <li>
+          Enables placement officers to post drives, track applicants,
+          and update hiring status through an admin dashboard.
+        </li>
+
+        <li>
+          Includes a student dashboard with an application tracker and
+          preparation checklist, allowing students to monitor their
+          placement progress in one place.
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+
 <section id="certifications">
   <div class="wrap reveal">
-    <div class="section-head"><span class="section-num">04</span><h2>Certifications</h2></div>
+    <div class="section-head"><span class="section-num">05</span><h2>Certifications</h2></div>
     <div class="cert-list">
       <div class="cert-item">
         <div class="cert-date">26 Aug 2025</div>
@@ -153,7 +196,7 @@
 
 <section id="contact">
   <div class="wrap reveal">
-    <div class="section-head"><span class="section-num">05</span><h2>Contact</h2></div>
+    <div class="section-head"><span class="section-num">06</span><h2>Contact</h2></div>
     <div class="contact-grid">
 
       <a class="contact-card" href="mailto:kmownika09@gmail.com">
@@ -172,7 +215,8 @@
   built with html · css · javascript
 </footer>
 
-<script src="/portfolio.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 </html>
